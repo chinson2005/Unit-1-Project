@@ -7,7 +7,6 @@ high_score = [10]
 def game():
     attempts = 1
     ans = random.randint(1, 10)
-    print(ans)  # !!!LEFT IN FOR EASIER TESTING!!! Will be removed before submission
     print("Welcome to the Number Guessing Game!\nThe high score is {}.\n".format(min(high_score)))
     while True:
         try:
