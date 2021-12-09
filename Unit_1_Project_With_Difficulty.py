@@ -155,7 +155,7 @@ def start():
             elif level == 4:
                 print("\n" + f"{quit_msg}")
                 print("-" * len(quit_msg))
-                break             
+                quit()            
             else: 
                 print("\nInvalid Choice!")
         except ValueError:
